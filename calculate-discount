@@ -10,8 +10,8 @@ def calculate_discount(price, discount_percent):
 
 # Ask user for input
 try:
-    price = float(input("Enter the original price: "))
-    discount_percent = float(input("Enter the discount percentage: "))
+    price = float(input("Enter the original price:"))
+    discount_percent = float(input("Enter the discount percentage:"))
 
     final_price = calculate_discount(price, discount_percent)
 
